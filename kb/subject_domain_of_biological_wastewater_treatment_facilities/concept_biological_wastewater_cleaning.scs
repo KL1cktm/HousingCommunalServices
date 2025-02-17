@@ -1,0 +1,12 @@
+concept_biological_wastewater_cleaning
+
+<= nrel_subdividing:
+    {
+		concept_complete_wastewater_cleaning_of_biodegradable_substances;
+		concept_partial_wastewater_cleaning_of_biodegradable_substances;
+		concept_nitrification;
+		concept_denitrification;
+		concept_removal_of_phosphorus_compounds;
+		concept_purification_from_specific_impurities
+		
+	};;

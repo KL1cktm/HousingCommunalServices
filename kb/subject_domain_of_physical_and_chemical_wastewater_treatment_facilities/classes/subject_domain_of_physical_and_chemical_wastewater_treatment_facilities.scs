@@ -1,0 +1,28 @@
+subject_domain_of_physical_and_chemical_wastewater_treatment_facilities
+    => nrel_main_idtf:
+    [Предметная область сооружений физико-химической очистки сточных вод]
+    (* <- lang_ru;;*);
+    <- subject_domain;
+    <- sc_node_struct;
+
+    -> rrel_maximum_studied_object_class:
+        concept_physical_and_chemical_wastewater_treatment_facility
+        (* 
+            <- sc_node_class;;
+            => nrel_main_idtf: [сооружение механической очистки сточных вод] (* <- lang_ru;;*);;
+        *);
+
+    -> rrel_not_maximum_studied_object_class:
+        concept_flotation_installation;
+        concept_wastewater_neutralization_facility;
+        concept_wastewater_neutralization;
+        concept_neutralization_acidic_wastewater;
+        concept_neutralization_alkaline_wastewater;
+        concept_biogenic_replenishment;
+        concept_nutritional_supplement;
+        concept_wastewater_sorption_treatment_facility;
+        concept_wastewater_sorption_treatment;
+        concept_sorbent;
+        concept_ion_exchange_treatment_of_industrial_wastewater;
+        concept_estimated_sediment_moisture;
+        concept_dose_reagents;;

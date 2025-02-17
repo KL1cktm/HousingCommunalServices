@@ -1,0 +1,8 @@
+concept_way_for_removing_phosphorus_compounds
+<= nrel_subdividing:
+    {
+		concept_reagent_precipitation_method;
+		concept_biological_method_for_removing_phosphorus_compounds;
+		concept_combined_method_for_removing_phosphorus_compounds
+		
+	};;

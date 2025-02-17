@@ -1,0 +1,16 @@
+subject_domain_of_wastewater_disinfection
+    => nrel_main_idtf:
+    [Предметная область обеззараживания сточных вод]
+    (* <- lang_ru;;*);
+    <- subject_domain;
+    <- sc_node_struct;
+
+    -> rrel_maximum_studied_object_class:
+        concept_wastewater_disinfection;
+
+    -> rrel_not_maximum_studied_object_class:
+        concept_uv_treatment;
+        concept_ozonation;
+        concept_chlorination_with_chlorine;
+        concept_dose_of_active_chlorine;
+        concept_uv_dose;;

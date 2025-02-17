@@ -1,0 +1,20 @@
+subject_domain_of_deep_wastewater_treatment_facilities
+    => nrel_main_idtf:
+    [Предметная область сооружений глубокой очистки сточных вод]
+    (* <- lang_ru;;*);
+    <- subject_domain;
+    <- sc_node_struct;
+
+    -> rrel_maximum_studied_object_class:
+        concept_deep_wastewater_treatment_facility;
+    
+    -> rrel_not_maximum_studied_object_class:
+        concept_facility_removing_suspended_solids_and_phosphorus_compounds;
+        concept_facility_deep_oxidation_organic_and_nitrogen_compounds;
+        concept_specific_pollutants;
+        concept_microfilter;
+        concept_soil_filtration_platform;
+        concept_concentration_pollutants_wastewater;
+        concept_wastewater_treatment_efficiency;
+        concept_useful_area_soil_filtration_platform;
+        concept_reserve_useful_area_soil_filtration_platform;;

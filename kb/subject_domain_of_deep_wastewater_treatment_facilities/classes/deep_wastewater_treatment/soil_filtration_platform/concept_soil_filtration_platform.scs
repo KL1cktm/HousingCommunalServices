@@ -1,0 +1,4 @@
+concept_soil_filtration_platform
+    => nrel_main_idtf:
+    	[грунтовая фильтрационная площадка]
+    	(* <- lang_ru;; *);;

@@ -1,0 +1,11 @@
+concept_pond_with_artificial_aeration
+<= nrel_sc_text_translation: ...
+	(*
+	    <- concept_notation;;
+		<- [После прудов с искусственной аэрацией необходимо предусматривать <sc_element sys_idtf="concept_settling_of_purified_water">отстаивание очищенной
+		воды</sc_element> в течение 2,0–2,5 ч.]
+			(*
+			<-lang_ru;;
+			=> nrel_format: format_html;;
+			*);;
+		*);;
